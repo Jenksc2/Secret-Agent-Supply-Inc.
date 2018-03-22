@@ -1,0 +1,33 @@
+/*BASE CSS*/
+
+html{
+  font-size: 18px;
+}
+
+body{
+  max-width: 960px;
+  margin: auto;
+  font-family: Helvetica;
+}
+
+/*HEADER CSS*/
+
+header{
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.brand{
+  font-size: 1rem;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.66rem 0 0.66rem .5rem;
+  display: flex;
+  align-items: center;
+}
+
+#logo{
+  padding-right: 1rem;
+  height: 1.5rem;
+}
