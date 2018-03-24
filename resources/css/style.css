@@ -5,6 +5,9 @@ html{
   font-family: Helvetica,sans-serif;;
 }
 
+body{
+  color: white;
+}
 
 /*HEADER CSS*/
 
@@ -54,4 +57,56 @@ header{
   font-size: 2rem;
   padding-top: 0.25rem;
   line-height: 2.25rem;
+}
+
+/*NAVIGATION CSS*/
+
+.navigation{
+  background-color: firebrick;
+}
+
+.navcon{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.75rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*PRODUCTS SECTION*/
+
+.products{
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 3rem;
+}
+
+.product{
+  width: 30%;
+}
+
+.product-img{
+  height: 9rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid black;
+
+
+}
+
+.product-img img{
+  max-width: 8rem;
+}
+
+.description{
+  display: block;
+  background-color: black;
+  padding: 0.5rem;
+  text-align: center;
+
 }
