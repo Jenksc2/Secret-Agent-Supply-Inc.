@@ -65,12 +65,20 @@ header{
   background-color: firebrick;
 }
 
-.navcon{
+.navcon1{
   max-width: 960px;
   margin: 0 auto;
   padding: 0.75rem 0;
   display: flex;
   justify-content: space-between;
+}
+
+.navcon2{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.75rem 0;
+  display: flex;
+  justify-content: center;
 }
 
 /*PRODUCTS SECTION*/
@@ -109,4 +117,126 @@ header{
   padding: 0.5rem;
   text-align: center;
 
+}
+
+/*INFO CSS*/
+
+.info-section{
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+
+.info-box{
+  width: 35%;
+}
+
+.info{
+  background-color: black;
+  padding: 1rem 2rem;
+
+}
+
+.info-box span{
+  display: block;
+}
+
+.number{
+  color: black;
+}
+
+
+/*FOOTER CSS*/
+
+footer{
+  background-color: black;
+}
+
+.copyright{
+  padding: 5rem 0;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/*MEDIA QUERYS*/
+
+@media only screen and (min-width: 1025px){
+    .navcon2{
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+  .no-show1{
+    display: none;
+  }
+
+  .product{
+    width: 47%;
+  }
+
+  .navcon1 {
+    display: none;
+  }
+
+  .info-box{
+    width: 35%;
+  }
+
+  .products{
+    padding: 3rem 0 3rem 0;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .banner {
+    height: 15rem;
+  }
+
+  .arrival {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+
+  .arrival h3 {
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+
+  .arrival h1 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .containter {
+    padding-top: 10rem;
+  }
+
+  .no-show2  {
+    display: none;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  .products {
+    justify-content: center;
+  }
+
+  .info-section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .info-box {
+    width: 90%;
+    padding-bottom: 0.5rem;
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: center;
+  }
 }
